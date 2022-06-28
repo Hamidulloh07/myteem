@@ -615,6 +615,9 @@ justify-content: end;
 }
 
 @media only screen and (min-width: 988px){
+  .aaa{
+    display: none;
+  }
 .lov{
   display: none;
 }
