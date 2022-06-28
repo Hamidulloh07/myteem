@@ -272,7 +272,7 @@ padding-bottom: 50px;
 
   margin-bottom: 75px;
   text-align: center;
-  width: 350px;
+  width: 330px;
   padding: 0;
   padding-top: 32px;
   padding-bottom: 56px;
@@ -329,23 +329,27 @@ color: #FFFFFF;
   top: 225px;
   transform: translate(-50%);
   cursor: pointer;
-  padding: 20px;
   border: none;
   border-radius: 50%;
   background: #F67E7E;
   transition: 0.3s;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+}
+
+.inner__button img{
+  padding: 20px 15px 20px;
+  transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
-  -webkit-transform: translate(-50%);
-  -moz-transform: translate(-50%);
-  -ms-transform: translate(-50%);
-  -o-transform: translate(-50%);
+}
+
+.inner__button img:hover{
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
 }
 
 .inner__button:hover{
@@ -376,23 +380,25 @@ color: #FFFFFF;
   fill: #F67E7E;
 }
 
-.ddd{
-  transform:rotate(-50%);
+.child button{
+  transform:translate(-50%);
   transition: 0.3s;
   background: #79C8C7;
-  right: 145px;
   transform: rotate(45deg);
-  -webkit-transform:rotate(-50%);
-  -moz-transform:rotate(-50%);
-  -ms-transform:rotate(-50%);
-  -o-transform:rotate(-50%);
+  -webkit-transform:translate(-50%);
+  -moz-transform:translate(-50%);
+  -ms-transform:translate(-50%);
+  -o-transform:translate(-50%);
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
 
-.ddd:hover{
+.ddd{
+}
+
+.child button:hover{
   background: #F67E7E;
 }
 
@@ -607,6 +613,7 @@ justify-content: end;
 
 }
 
+
 @media only screen and (max-width: 1098px ){
   .inner__element{
     justify-content: space-around;
@@ -719,6 +726,7 @@ line-height: 28px;
 
   }
 
+
   .child{
     max-width: 280px;
     max-height: 253px;
@@ -754,6 +762,7 @@ line-height: 28px;
   .child{
     padding: 25px 24px 53px;
   }
+
 }
 
 @media only screen and (max-width: 585px){
@@ -864,6 +873,12 @@ line-height: 28px;
 
 }
 
+@media only screen and (max-width: 333px ){
+  .aside{
+  background-position: left 320px;
+
+  }
+}
 
 
 
